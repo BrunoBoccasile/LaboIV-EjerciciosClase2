@@ -1,0 +1,17 @@
+.mensajeError{
+    color: red;
+    font-size: 20px;
+    margin-left: 240px;
+    text-align: center;
+    align-items: center;
+    font-family: Roboto;
+
+}
+
+.subMensajeError{
+    margin-left: 240px;
+    text-align: center;
+    align-items: center;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}

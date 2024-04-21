@@ -1,0 +1,16 @@
+@if(rutaActual == "/login")
+{
+  <div class="paginaLogin">
+    <h1>Inicio de sesión</h1>
+    <p>Por favor, ingrese sus credenciales<p>
+  
+    <div class="inputsLogin">
+      <input type="text"  placeholder="Usuario" [(ngModel)]="usuarioIngresado.user">
+      <input type="text" placeholder="Contraseña" [(ngModel)]="usuarioIngresado.password" type="password">
+    </div>
+    <input type="button" class="btnIniciarSesion" value="Iniciar sesión" (click)="iniciarSesion()">
+    <p class="pRegistro">¿Todavía no ha creado una cuenta?, haga click <a (click)="irARegistro()">aquí</a> para crear una.</p>
+  
+  </div>
+}
+<router-outlet></router-outlet>

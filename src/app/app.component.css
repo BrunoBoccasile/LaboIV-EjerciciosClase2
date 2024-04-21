@@ -1,0 +1,49 @@
+.botonesRutas
+{
+    height: 100%;
+    width: 240px; 
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    background-color: #1f1f1f; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+}
+.botonesRutas input
+{
+    background-color: #343338;
+    border: none;
+    color: rgb(167, 167, 167);
+    padding: 15px 32px;
+    text-align: center;
+    height: 60px;
+    width: 85%;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.botonesRutas h1
+{
+    color: white;
+    font-size: 25px;
+}
+
+.botonesRutas input:hover
+{
+    color: white;
+    transform: scale(1.05);
+}
+
+.botonesRutas hr
+{
+    width: 200px; 
+    height: 2px; 
+    border-radius: 1px;
+    background-color: #343338;
+    border: none; 
+    margin-top: 0px;
+}

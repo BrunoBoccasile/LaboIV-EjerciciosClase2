@@ -1,0 +1,11 @@
+<div class="paginaRegistro">
+    <h1>Crear cuenta</h1>
+    <p>Por favor, ingrese un usuario y una contraseña para crear su cuenta<p>
+  
+    <div class="inputsRegistro">
+      <input type="text"  placeholder="Usuario" [(ngModel)]="usuarioObjeto.user">
+      <input type="text" placeholder="Contraseña" type="password" [(ngModel)]="usuarioObjeto.password">
+    </div>
+    <input type="button" class="btnRegistro" value="Registrarse" (click)="registrarse()">
+  
+  </div>
